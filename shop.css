@@ -1,0 +1,11 @@
+.header{
+    width: 100px;
+    height: 100px;
+    color: #000;
+}
+
+.box{
+    width: 10px;
+    height: 10px;
+    color: aqua;
+}
