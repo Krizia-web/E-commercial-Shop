@@ -1,11 +1,71 @@
-.header{
-    width: 100px;
-    height: 100px;
-    color: #000;
+body{
+    margin: 0;
+    min-height: 100vh;
+    
 }
 
-.box{
-    width: 10px;
-    height: 10px;
-    color: aqua;
+.header{
+    background-color: bisque;
+    width: 209vh;
+    position: relative;
+    height: 70px;
+    
 }
+
+.searchbar{
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    
+}
+
+.sch{
+    border-radius: 3px;
+}
+
+.btn{
+    border-radius: 20px;
+}
+
+.icons{
+    display: grid; 
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 40px 50px 50px;
+    gap: 4em;
+    position: relative;
+    left: 70%;
+}
+
+.inbox{
+    position: relative;
+}
+
+.cart{
+    position: relative;
+}
+
+.account{
+    position: relative;
+
+}
+
+.hdtext{
+    text-align: center;
+}
+
+ /*display of merchindise three pics in a grid*/
+
+ .gridbox{
+    display: grid;
+    position: relative;
+    left: 18%;
+    top: 30px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 60px;
+ }
+
+ .box{
+    background-color: coral;
+    padding: 2em;
+ }
