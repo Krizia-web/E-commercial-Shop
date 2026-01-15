@@ -1,71 +1,78 @@
-body{
-    margin: 0;
+:root{
+    --pink: #e84393
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem #333;
+}
+
+.logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+
+}
+
+.logo span{
+    color: var(--pink);
+}
+
+.navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+.navbar a:hover{
+    color: var(--pink);
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
     min-height: 100vh;
-    
+    background-color: aqua;
+    background-position: center;
 }
 
-.header{
-    background-color: bisque;
-    width: 209vh;
-    position: relative;
-    height: 70px;
-    
+.home .content{
+    max-width: 50rem;
 }
 
-.searchbar{
-    position: absolute;
-    left: 50%;
-    top: 20px;
-    
+.home .content h3{
+    font-size: 6rem;
+    color: #333;
 }
-
-.sch{
-    border-radius: 3px;
-}
-
-.btn{
-    border-radius: 20px;
-}
-
-.icons{
-    display: grid; 
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 40px 50px 50px;
-    gap: 4em;
-    position: relative;
-    left: 70%;
-}
-
-.inbox{
-    position: relative;
-}
-
-.cart{
-    position: relative;
-}
-
-.account{
-    position: relative;
-
-}
-
-.hdtext{
-    text-align: center;
-}
-
- /*display of merchindise three pics in a grid*/
-
- .gridbox{
-    display: grid;
-    position: relative;
-    left: 18%;
-    top: 30px;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
-    gap: 60px;
- }
-
- .box{
-    background-color: coral;
-    padding: 2em;
- }
