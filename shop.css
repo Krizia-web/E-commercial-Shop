@@ -1,5 +1,5 @@
 :root{
-    --pink: #e84393
+    --pink:#7D57BF
 }
 
 *{
@@ -74,9 +74,7 @@ header .icons a:hover{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(img\perfbg.png);
-    background-size: cover;
-    background-position: center;
+    background: #FBE4F6;
 }
 
 .home .content{
@@ -125,7 +123,7 @@ header .icons a:hover{
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
-    background: rgba(255, 51, 153, .05);
+    background: #D8B2FE;
 
 }
 
@@ -331,6 +329,7 @@ header .icons a:hover{
 
 .contact .row .image img{
     width: 100%;
+    
 }
 
 .contact .row form .box{
@@ -352,3 +351,38 @@ header .icons a:hover{
     height: 15rem;
     resize: none;
 }
+
+/*footer section*/
+
+.footer .boxfooter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .boxfooter .box{
+    flex: 1 1 40rem;
+}
+
+.footer .boxfooter .box h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.footer .boxfooter .box a{
+    display: block;
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+ .footer .boxfooter .box a:hover{
+    color: var(--pink);
+    text-decoration: underline;
+ }
+
+ .footer .boxfooter .box img{
+    margin-top: -1rem;
+    width: 15rem;
+ }
